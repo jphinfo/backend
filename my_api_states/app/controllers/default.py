@@ -8,7 +8,7 @@ with open("date.json", encoding = "UTF8") as f:
 
 @app.route("/")
 def index():
-    return "Index"
+    return "Brasil acima de tudo e Deus acima de todos."
 
 @app.route("/states/", methods=["GET"])
 def get_states():
